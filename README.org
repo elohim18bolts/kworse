@@ -1,0 +1,9 @@
+#+title: Readme
+
+* Text Search in Rust
+This program implements a basic string search  within a bigger string.
+** Example
+Run the example program with =cargo run --example cli= in a terminal. The program will ask the user to type a string following by a keyword to search, the result will be a
+new text with the keyword to search in red if it exists.
+
+[[./assets/test.png]]

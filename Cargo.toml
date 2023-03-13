@@ -1,0 +1,16 @@
+[package]
+name = "text_search"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[lib]
+name = "search"
+path = "src/lib/mod.rs"
+
+[[example]]
+name = "cli"
+path = "src/examples/cli.rs"
